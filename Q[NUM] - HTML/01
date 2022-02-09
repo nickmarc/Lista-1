@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <h1>Calcula circunferência</h1>
+
+</head>
+
+  <body>
+    <b><font face="Courier" > Digite valor do raio </font> <br /></b> <br> 
+  <label>
+      <input type="number" id="raio" value="">
+  </label>
+
+  <!-- _c : circunferência -->
+
+  <button onclick="calcula_c()">Calcule!</button>
+  
+  <h3>Diamêtro:</h3><p id="diametro_c"></p>
+
+  <h3>Comprimento:</h3><p id="comprimento_c"></p>
+
+  <h3>Área:</h3><p id="area_c"></p> 
+
+  <script src="script.js"></script>
+  </body>
+</html>
