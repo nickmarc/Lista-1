@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Área e volume</title>
+    <h1>Apresenta-se área e volume de ESFERAS, CONES e CILINDROS</h1>
+    <h2>Informe o valor da altura, raio e por fim informe o tipo da figura geométrica</h2>
+    <h3><i>Aceita-se apenas as seguintes palavras-chaves: <br>- ESFERA<br>- CONE<br>- CILINDRO<br></i></h3>
+
+</head>
+<body>
+
+<label>
+    <input type="number" id="altura" value="">
+    <input type="number" id="raio" value="">
+    <input type="text" id="tipo">
+</label>
+
+<button onclick="VolArea()">Opere!</button>
+
+<h2>Área:</h2>
+<h3 id="area"></h3>
+<h2>Volume:</h2>
+<h3 id="volume"></h3>
+
+<p id="tipoError"></p>
+
+</body>
+<script src="script.js"></script>
+</html>
