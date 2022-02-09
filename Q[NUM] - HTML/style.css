@@ -1,0 +1,24 @@
+.cabeca {
+    font-family: Monospaced, monospace;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.div_button {
+    text-align: center;
+}
+
+.checkImpar_feedback{
+    font-family: Monospaced, monospace;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
